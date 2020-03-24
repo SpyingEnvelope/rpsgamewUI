@@ -23,7 +23,6 @@ for (let i = 0; i < playerClick.length; i++) {
 };
 
 function player1(e) {
-    console.log(e.target.id);
     let choice = e.target.id;
     choice = choice.toUpperCase();
     playerPlay(choice);
