@@ -4,8 +4,7 @@ let playerScore = 0;
 let computerScore = 0;
 let playerOverallGameScore = 0;
 let cpuOverallGameScore = 0;
-let playerClick = document.querySelectorAll('.button');
-let playerFontAwesome = document.querySelectorAll('.far');
+let playerClick = document.querySelectorAll('.far');
 let playerScoreTracker = document.querySelector('#playerscore');
 let computerScoreTracker = document.querySelector('#computerscore');
 let showWinner = document.querySelector('#winner');
@@ -28,10 +27,6 @@ function player1(e) {
     let choice = e.target.id;
     choice = choice.toUpperCase();
     playerPlay(choice);
-};
-
-for (let i = 0; i < playerFontAwesome.length; i++) {
-    playerFontAwesome[i].addEventListener('click', player1)
 };
 
 

@@ -70,11 +70,11 @@ h1 {
 
 
 
-button::-moz-focus-inner {
+.far::-moz-focus-inner {
     border: 0;
   }
 
-.button {
+.far {
     border: 2px solid black;
     width: 100px;
     height: 100px;
@@ -86,7 +86,7 @@ button::-moz-focus-inner {
     border-radius: 20%;
 }
 
-.button:hover {
+.far:hover {
     transform: scale(1.2);
     color: white;
     background-color: black;
